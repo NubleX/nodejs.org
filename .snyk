@@ -15,3 +15,5 @@ patch:
         patched: '2016-07-08T18:27:48.890Z'
     - metalsmith-stylus > stylus > glob > minimatch:
         patched: '2016-07-08T18:27:48.890Z'
+    - metalsmith-prism > metalsmith > recursive-readdir > minimatch:
+        patched: '2016-07-11T14:51:49.671Z'
