@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:marked:20150520':
     - marked:
@@ -15,3 +17,6 @@ patch:
         patched: '2016-07-08T18:27:48.890Z'
     - metalsmith-stylus > stylus > glob > minimatch:
         patched: '2016-07-08T18:27:48.890Z'
+  'npm:lodash:20180130':
+    - metalsmith-yearly-pagination > lodash:
+        patched: '2018-07-06T21:52:41.354Z'
