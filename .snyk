@@ -1,5 +1,7 @@
-version: v1.5.0
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.13.5
 ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
 patch:
   'npm:marked:20150520':
     - marked:
@@ -15,3 +17,28 @@ patch:
         patched: '2016-07-08T18:27:48.890Z'
     - metalsmith-stylus > stylus > glob > minimatch:
         patched: '2016-07-08T18:27:48.890Z'
+  SNYK-JS-LODASH-450202:
+    - snyk > snyk-mvn-plugin > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-nuget-plugin > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-nodejs-lockfile-parser > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > @snyk/dep-graph > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > inquirer > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-config > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > @snyk/dep-graph > graphlib > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-nodejs-lockfile-parser > graphlib > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-go-plugin > graphlib > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - snyk > snyk-php-plugin > @snyk/composer-lockfile-parser > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
+    - node-geocoder > request-promise > request-promise-core > lodash:
+        patched: '2019-07-05T21:06:37.596Z'
